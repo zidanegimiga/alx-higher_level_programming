@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-i = 97
-while i <= 122:
-    if i != ord('e') and i != ord('q'):
-        print(chr(i), end = "")
-    i = i + 1
-    
+for c in range(ord('a'), ord('z') + 1):
+    if c != ord('e') and c != ord('q'):
+        print("{:c}".format(c), end="")
