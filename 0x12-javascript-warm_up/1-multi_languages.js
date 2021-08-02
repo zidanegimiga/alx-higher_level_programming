@@ -1,6 +1,4 @@
 #!/usr/bin/node
-const sentOne = 'C is fun';
-const b = 'Python is cool';
-const c = 'Javascript is amazing';
-
-console.log(sentOne + '\n' + b + '\n' + c);
+console.log('C is fun');
+console.log('Python is cool');
+console.log('Javascript is amazing');
